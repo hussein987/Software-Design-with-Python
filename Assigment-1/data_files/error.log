@@ -1,0 +1,60 @@
+TimeStamp: 1663634322.873903
+Traceback (most recent call last):
+  File "/Users/husseinyounes/University/Python/Software-Design-with-Python/Assigment-1/src/task4.py", line 9, in __call__
+    super().__call__(*args, **kwd_args)
+  File "/Users/husseinyounes/University/Python/Software-Design-with-Python/Assigment-1/src/task3.py", line 41, in __call__
+    super().__call__(*args, **kwd_args)
+  File "/Users/husseinyounes/University/Python/Software-Design-with-Python/Assigment-1/src/task3.py", line 25, in __call__
+    self.func(*args, **kwd_args)
+  File "main.py", line 49, in qudratic_solver
+    sol_1 = (-b - cmath.sqrt(d)) / (2 * a) # The first root
+ZeroDivisionError: complex division by zero
+====================================================================================================
+TimeStamp: 1663634341.956387
+Traceback (most recent call last):
+  File "/Users/husseinyounes/University/Python/Software-Design-with-Python/Assigment-1/src/task4.py", line 9, in __call__
+    super().__call__(*args, **kwd_args)
+  File "/Users/husseinyounes/University/Python/Software-Design-with-Python/Assigment-1/src/task3.py", line 41, in __call__
+    super().__call__(*args, **kwd_args)
+  File "/Users/husseinyounes/University/Python/Software-Design-with-Python/Assigment-1/src/task3.py", line 25, in __call__
+    self.func(*args, **kwd_args)
+  File "main.py", line 49, in qudratic_solver
+    sol_1 = (-b - cmath.sqrt(d)) / (2 * a) # The first root
+ZeroDivisionError: complex division by zero
+====================================================================================================
+TimeStamp: 1663635436.301916
+Traceback (most recent call last):
+  File "/Users/husseinyounes/University/Python/Software-Design-with-Python/Assigment-1/src/task4.py", line 47, in call_counter
+    func(*args, **kwd_args)
+  File "main.py", line 49, in qudratic_solver
+    sol_1 = (-b - cmath.sqrt(d)) / (2 * a) # The first root
+ZeroDivisionError: complex division by zero
+====================================================================================================
+TimeStamp: 1663635498.855426
+Traceback (most recent call last):
+  File "/Users/husseinyounes/University/Python/Software-Design-with-Python/Assigment-1/src/task4.py", line 48, in call_counter
+    func(*args, **kwd_args)
+  File "main.py", line 49, in qudratic_solver
+    sol_1 = (-b - cmath.sqrt(d)) / (2 * a) # The first root
+ZeroDivisionError: complex division by zero
+====================================================================================================
+TimeStamp: 1663635510.866204
+Traceback (most recent call last):
+  File "/Users/husseinyounes/University/Python/Software-Design-with-Python/Assigment-1/src/task4.py", line 48, in call_counter
+    func(*args, **kwd_args)
+  File "main.py", line 49, in qudratic_solver
+    sol_1 = (-b - cmath.sqrt(d)) / (2 * a) # The first root
+ZeroDivisionError: complex division by zero
+====================================================================================================
+TimeStamp: 1663637225.709189
+Traceback (most recent call last):
+  File "/Users/husseinyounes/University/Python/Software-Design-with-Python/Assigment-1/src/task4.py", line 15, in __call__
+    super().__call__(*args, **kwd_args)
+  File "/Users/husseinyounes/University/Python/Software-Design-with-Python/Assigment-1/src/task3.py", line 41, in __call__
+    super().__call__(*args, **kwd_args)
+  File "/Users/husseinyounes/University/Python/Software-Design-with-Python/Assigment-1/src/task3.py", line 25, in __call__
+    self.res = self.func(*args, **kwd_args)
+  File "main.py", line 24, in sort_tuples
+    return sorted(tuples, key=lambda x: x[1])
+TypeError: '<' not supported between instances of 'str' and 'int'
+====================================================================================================
