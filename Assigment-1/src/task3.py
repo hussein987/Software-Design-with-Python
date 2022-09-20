@@ -47,14 +47,14 @@ class decorator_3(call_count_decorator):
             with redirect_stdout(redirected_out):
                 print(non_empty_lines[0])
                 for line in non_empty_lines[1:]:
-                    print(f"\t\t{line}")
+                    print(f"\t{line}")
             return redirected_out.getvalue()
 
         def get_args(*args, **kwd_args):
             redirected_out = io.StringIO()
             with redirect_stdout(redirected_out):
                 print(f"positional {args}")
-                print(f"\t\t key=worded {kwd_args}")
+                print(f"\t key=worded {kwd_args}")
             return redirected_out.getvalue()
 
         with open(self.out_file, 'a') as f:
